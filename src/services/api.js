@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL:'https://https://backend-pic.herokuapp.com/',
+    baseURL:'https://backend-pic.herokuapp.com/',
     timeout: 7000,
 })
 
