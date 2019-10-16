@@ -1,0 +1,56 @@
+*{
+    padding: 10px;
+}
+h1 {
+    display:  flex;
+    align-items: center;
+    justify-content: left;
+}
+.search-container {
+    display:  flex;
+    align-items: left;
+    justify-content: left;
+}
+.results-container div{
+    display:  flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+
+}
+.results-container div ul{
+    border: 2px;
+    display:  flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.search-container form {
+    width:100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+.search-container form input {
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: gray;
+}
+.search-container form label {
+    font-size: large;
+}
+.search-container form button {
+    margin-top: 5px;
+    border: 0;
+    border-radius: 4px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    background: gray;
+    cursor: pointer;
+}
