@@ -1,8 +1,6 @@
 import React,{ Component} from 'react'
 import './index.css'
-
 import api from '../services/api'
-
 
 
 class Index extends Component {
